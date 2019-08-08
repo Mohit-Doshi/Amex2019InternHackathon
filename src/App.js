@@ -29,15 +29,16 @@
 // export default App;
 
 import React from 'react';
-import FindAPool from './FindAPool'
+import LandingPage from './LandingPage'
 import ListRoutes from './routeslist'
+import FindAPool from './FindAPool';
 function App() {
   return (
   <div className="App">
+    <LandingPage/>
     <FindAPool resd="dk"/>
     <ListRoutes/>
-    <FindAPool resd="lk"/>
-    </div>
+  </div>
   );
 };
 
