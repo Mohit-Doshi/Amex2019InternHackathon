@@ -33,9 +33,9 @@ import FindAPool from './FindAPool'
 function App() {
   return (
   <div className="App">
-    <FindAPool/>
-    <FindAPool/>
-    <FindAPool/>
+    <FindAPool resd="dk"/>
+    <FindAPool resd="ok"/>
+    <FindAPool resd="lk"/>
     </div>
   );
 };
