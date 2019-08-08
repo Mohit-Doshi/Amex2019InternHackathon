@@ -28,11 +28,12 @@
 
 // export default App;
 
-import React from 'react';
+import React,{Component} from 'react';
 import LandingPage from './LandingPage'
 import ListRoutes from './routeslist'
 import FindAPool from './FindAPool';
-function App() {
+export default class App extends Component {
+  render(){
   return (
   <div className="App">
     <LandingPage/>
@@ -40,6 +41,6 @@ function App() {
     <ListRoutes/>
   </div>
   );
+  }
 };
 
-export default App;
